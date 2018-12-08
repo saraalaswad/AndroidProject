@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OmDB</string>
+    <string name="lbl_search">Tap tour research below:</string>
 </resources>
