@@ -30,7 +30,6 @@ public class MainActivity extends Activity {
 
     ArrayList<Movie> mPopularList;
     ArrayList<Movie> mTopTopRatedList;
-    String myApiKey = BuildConfig.API_KEY;
 
     GridView mGridView;
     ArrayList<Movie> movies;
@@ -91,9 +90,9 @@ public class MainActivity extends Activity {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            moviesURL = "http://api.themoviedb.org/3/discover/movie?api_key="+myApiKey;
-            popularMoviesURL = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key="+myApiKey;
-            topRatedMoviesURL = "http://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&api_key="+myApiKey;
+            moviesURL = "http://api.themoviedb.org/3/discover/movie?api_key="+"655357f554a9983a18701b9d601538f6";
+            popularMoviesURL = "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key="+"655357f554a9983a18701b9d601538f6";
+            topRatedMoviesURL = "http://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&api_key="+"655357f554a9983a18701b9d601538f6";
 
             movies = new ArrayList<>();
             mPopularList = new ArrayList<>();
