@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_col_width">200dp</dimen>
+    <dimen name="overview_fragment_margin_bottom">20dp</dimen>
+    <dimen name="detail_poster_linear_margin_left">20dp</dimen>
+    <dimen name="detail_poster_linear_margin_top">20dp</dimen>
+</resources>
